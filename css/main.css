@@ -1,7 +1,55 @@
 html {
   box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+  margin: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+img {
+  margin: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.grain {
+  display: flex;
+  justify-content: space-between;
+}
+
+div h1 {
+  margin: 0;
+  color: #fff;
+  font-family: Merriweather, serif;
+  font-size: 2rem;
+  padding: .4rem 0;
+}
+
+.navi {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: none;
+  text-decoration: none;
+  border: 1px solid #a63f38;
+  padding: .5em 0;
 }
